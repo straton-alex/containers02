@@ -17,7 +17,7 @@ Scopul acestei lucrări de laborator este de a introduce conceptele de bază ale
 
   ![](images/image.png)  
 
-  După finalizarea descărcării, trecem la instalare.
+  > După finalizarea descărcării, trecem la instalare.
 
 - **Instalarea [Docker](https://www.docker.com/products/docker-desktop/) pe OS Windows**
 
@@ -45,6 +45,7 @@ docker --version
       ![](images/Screenshot-2025-02-28-214056.png)  
 
 ### 3. Clonarea repository-ului pe calculatorul local
+
  1. În repository-ul creat tastăm Code -> Local -> Clone -> HTTPS, copiem link-ul.  
       ![](images/Screenshot-2025-02-28-214117.png)  
 
@@ -69,7 +70,7 @@ cd containers02
 New-Item -ItemType File -Name "Dockerfile"
 ```
 
-    - Introducem în Dockerfile următoarele date
+- Introducem în Dockerfile următoarele date
 
 ```bash
 FROM debian:latest
@@ -125,7 +126,7 @@ docker rm containers02
 docker run -ti --name containers02 containers02 bash
 ```
 
- - În fereastra deschisă, executăm comenzile:
+  - În fereastra deschisă, executăm comenzile:
 
 ```bash
 cd /var/www/html/
