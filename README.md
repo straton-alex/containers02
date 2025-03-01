@@ -10,6 +10,7 @@ Scopul acestei lucrări de laborator este de a introduce conceptele de bază ale
 ### 1. Descărcarea și Instalarea [Docker](https://www.docker.com/products/docker-desktop/)
 
 - **Descărcarea [Docker](https://www.docker.com/products/docker-desktop/) pentru OS Windows**
+
   - Descărcarea Docker
 
   Am accesat site-ul oficial [Docker](https://www.docker.com/products/docker-desktop/) și am descărcat `Docker Desktop` pentru OS Windows.
@@ -22,16 +23,18 @@ Scopul acestei lucrări de laborator este de a introduce conceptele de bază ale
 
   - Instalarea Docker
 
+  ![](images/Screenshot-2025-03-01-093235.png)  
+  
   > Parcurgem conform pașilor indicați de instalator
 
-  ![](images/Screenshot-2025-03-01-093235.png)  
-
-  > După finalizarea instalării, putem verifica versiunea Docker-ului, utilizând comanda
 
 ```bash
 docker --version
 ```
-  ![](images/Screenshot-2025-03-01-093931.png)
+
+> După finalizarea instalării, putem verifica versiunea Docker-ului, utilizând comanda
+
+![](images/Screenshot-2025-03-01-093931.png)
 
 ### 2. Crearea unui proiect
  - Crearea unui *repository* pe GitHub
@@ -48,7 +51,7 @@ docker --version
  2. Deschidem Visual Studio sau alt IDE dorit.  
       ![](images/Screenshot-2025-02-28-214233.png)  
 
-      > Introducem comanda pentru clonare în consolă
+ 3. Introducem comanda pentru clonare în consolă
 
 ```bash
 git clone https://github.com/straton-alex/containers02.git
@@ -65,6 +68,7 @@ cd containers02
 ```bash
 New-Item -ItemType File -Name "Dockerfile"
 ```
+
     - Introducem în Dockerfile următoarele date
 
 ```bash
@@ -83,7 +87,7 @@ New-Item -ItemType File -Name "index.html"
 
 > În interiorul `index.html` am introdus un mesaj de salutare
 
-![](images/Screenshot-2025-02-28-214956) 
+![](images/Screenshot-2025-02-28-214956.png) 
 
 
 ### 5. Pornire și testare
@@ -107,6 +111,7 @@ docker run --name containers02 containers02
 ```
 
 > Ce a fost afișat în consolă?
+
 ![](images/Screenshot-2025-02-28-215323.png)
 
 *În consolă a fost afișat mesajul de salutare pe care l-am introdus în `Dockerfile` și denumirea containerului*
@@ -128,6 +133,7 @@ ls -l
 ```
 
 > Ce este afișat pe ecran?
+
 ![](images/Screenshot-2025-02-28-215427.png)
 
 Închidem fereastra cu comanda `exit`.
