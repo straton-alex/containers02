@@ -1,4 +1,4 @@
-# IWNO2: Lucrul cu GIT
+# IWNO3: Prima aplicație Docker
 
 * **Autor:** Straton Alexandru  
 * **Grupa:** IA-2302  
