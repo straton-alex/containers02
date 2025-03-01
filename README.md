@@ -7,6 +7,8 @@
 ## Scop
 Scopul acestei lucrări de laborator este de a introduce conceptele de bază ale containerizării cu Docker, de a instala și verifica funcționarea Docker Desktop și de a crea și rula un container simplu.
 
+--- 
+
 ### 1. Descărcarea și Instalarea [Docker](https://www.docker.com/products/docker-desktop/)
 
 - **Descărcarea [Docker](https://www.docker.com/products/docker-desktop/) pentru OS Windows**
@@ -36,6 +38,8 @@ docker --version
 
 ![](images/Screenshot-2025-03-01-093931.png)
 
+--- 
+
 ### 2. Crearea unui proiect
  - Crearea unui *repository* pe GitHub
     - Tastăm butonul `New`  
@@ -43,6 +47,8 @@ docker --version
 
     - Introducem datele repository-ului  
       ![](images/Screenshot-2025-02-28-214056.png)  
+
+--- 
 
 ### 3. Clonarea repository-ului pe calculatorul local
 
@@ -59,6 +65,8 @@ git clone https://github.com/straton-alex/containers02.git
 
 cd containers02
 ```
+
+--- 
 
 ### 4. Lucrul cu Docker
 
@@ -90,6 +98,7 @@ New-Item -ItemType File -Name "index.html"
 
 ![](images/Screenshot-2025-02-28-214956.png) 
 
+--- 
 
 ### 5. Pornire și testare
 
@@ -139,6 +148,8 @@ ls -l
 
 Închidem fereastra cu comanda `exit`.
 
+---
+
 ### 6. Publicarea codului pe GitHub
 
 > Publicăm codul pe GitHub
@@ -152,9 +163,13 @@ git commit -m "lab03"
 git push origin main
 ```
 
+--- 
+
 ### 7. Concluzie
 
 În urma acestei lucrări de laborator, am reușit să instalăm și să configurăm Docker Desktop, să creăm o imagine Docker și să rulăm un container. Am înțeles modul în care funcționează un Dockerfile, gestionarea fișierelor într-un container și interacțiunea cu acesta prin terminal. Această experiență oferă o bază solidă pentru utilizarea containerizării în proiecte viitoare.
+
+--- 
 
 ### 8. Bibliografie
 
